@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+   max-width: 600px;
+   margin: 20px auto;
+   background-color: rgb(99, 107, 220);
+   border-radius: 10px;
+   padding: 20px;
+   text-align: center;
+   box-shadow:0 0 10px rgb(0, 0, 0);
+}
+input{
+    border-radius: 20px;
+    padding: 10px;
+    width: 70%;
+    border: none;
+    font-size: 15px;
+    outline: none;
+}
+button{
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+    background-color:rgb(17, 230, 17);
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+}
+button:hover{
+    background-color: green;
+    color: white;
+}
+#list{
+    list-style-type: none;
+    padding: 0;
+}
+#list li{
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    justify-content:space-between;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+.delbtns{
+    background-color: red;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+.delbtns:hover{
+    background-color: rgb(159, 20, 20);
+    color: white;
+}
